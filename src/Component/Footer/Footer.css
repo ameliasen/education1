@@ -1,0 +1,183 @@
+.footer-5-column {
+  background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #6607f4 100%);
+  box-shadow: 0 4px 20px rgba(121, 20, 254, 0.682);
+  border: 1px solid rgba(245, 11, 253, 0.593); /* optional */
+  padding: 60px 20px 30px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-company-details {
+  flex: 1 1 300px;
+}
+.footer-logo svg {
+  width: 40px;
+  height: 40px;
+  text-shadow: 0 0 7px rgba(243, 242, 244, 0.964), 0 0 18px rgba(252, 252, 253, 0.964);
+  
+  color: #a404fb;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.footer-logo svg:hover {
+  color: #c13cff;
+  transform: scale(1.1);
+  text-shadow: 0 0 6px rgba(255, 251, 255, 0.99), 0 0 18px rgb(124, 2, 157);
+  
+  cursor: pointer;
+}
+
+
+.footer-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  background: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 120%;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.icon:hover .tooltip {
+  opacity: 1;
+}
+
+/* Social icon colors */
+.icon.facebook { background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #6607f4 100%);
+  box-shadow: 0 4px 20px rgba(121, 20, 254, 0.682);
+  border: 1px solid rgba(245, 11, 253, 0.593); /* optional */ }
+.icon.twitter { background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #6607f4 100%);
+  box-shadow: 0 4px 20px rgba(121, 20, 254, 0.682);
+  border: 1px solid rgba(245, 11, 253, 0.593); /* optional */ }
+.icon.linkedin { background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #6607f4 100%);
+  box-shadow: 0 4px 20px rgba(121, 20, 254, 0.682);
+  border: 1px solid rgba(245, 11, 253, 0.593); /* optional */ }
+.icon.github { background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #6607f4 100%);
+  box-shadow: 0 4px 20px rgba(121, 20, 254, 0.682);
+  border: 1px solid rgba(245, 11, 253, 0.593); /* optional */ }
+.icon.youtube { background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #6607f4 100%);
+  box-shadow: 0 4px 20px rgba(121, 20, 254, 0.682);
+  border: 1px solid rgba(245, 11, 253, 0.593); /* optional */ }
+
+.footer-navbar {
+  display: flex;
+  flex: 2 1 600px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-navbar-col {
+  min-width: 150px;
+}
+
+.footer-navbar-col h5 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#c54dfd;
+}
+
+.footer-navbar-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navbar-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-navbar-col ul li a {
+  text-decoration: none;
+  color: #fefcfc;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-navbar-col ul li a:hover {
+  color: #000;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #fefafa;
+  margin-top: 40px;
+   text-shadow: 0 0 6px rgba(255, 251, 255, 0.99), 0 0 18px rgb(124, 2, 157);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+      .footer-navbar {
+        flex-direction: column;
+        gap: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+  .footer-5-column {
+    padding: 63px 3px;
+    border-radius:20px;
+}
+.footer-navbar {
+    display: flex;
+    flex: 2 1 600px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+}

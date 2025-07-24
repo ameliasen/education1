@@ -1,0 +1,166 @@
+.otp-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.otp-head {
+    margin-bottom: 29px;
+    font-size: 29px;
+    color: #333;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.otp-inputs input {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.otp-inputs input:focus {
+  border-color: #440d8b;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #40067a;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #630bce;
+}
+
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px;
+  
+}
+
+.signup-box {
+  background-color: #e3efff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+}
+
+.signup-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-box input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.signup-box button {
+  padding: 10px;
+  background-color: #310567;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.signup-box button:hover {
+  background-color: #4400c1;
+}
+
+.signup-box p {
+  text-align: center;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.signup-box a {
+  color: #fefdff;
+  text-decoration: none;
+}
+
+.illustration img {
+  width: 180px;
+  height: auto;
+}
+
+p{
+    color:black;
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.singup-a{
+  color: #02029f;
+}
+
+.register-a{
+  color: #fcfcff;
+  text-decoration: none;
+}
+
+.verify-btn{
+  text-decoration: none;
+  
+}
+
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 60px;
+  margin-bottom: 20px;
+}
